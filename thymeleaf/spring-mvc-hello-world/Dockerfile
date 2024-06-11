@@ -11,7 +11,6 @@ ADD pom.xml $HOME
 
 #RUN ["mvn", "dependency:resolve"]
 
-#RUN ["/usr/local/bin/mvn-entrypoint.sh", "mvn", "verify", "clean", "--fail-never"]
 
 ADD . $HOME
 

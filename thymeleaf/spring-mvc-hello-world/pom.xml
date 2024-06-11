@@ -10,6 +10,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>11</jdk.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <spring.version>5.2.22.RELEASE</spring.version>
         <!--<servletapi.version>4.0.4</servletapi.version>-->
         <servletapi.version>4.0.0</servletapi.version>
