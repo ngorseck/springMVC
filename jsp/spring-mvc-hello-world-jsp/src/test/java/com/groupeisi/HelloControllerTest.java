@@ -1,6 +1,6 @@
-package com.mkyong;
+package com.groupeisi;
 
-import com.mkyong.config.SpringWebConfig;
+import com.groupeisi.config.SpringWebConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

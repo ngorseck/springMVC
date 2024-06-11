@@ -1,6 +1,6 @@
-package com.mkyong;
+package com.groupeisi;
 
-import com.mkyong.config.SpringWebConfig;
+import com.groupeisi.config.SpringWebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyServletInitializer
