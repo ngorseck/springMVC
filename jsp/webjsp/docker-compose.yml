@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  tomcat:
+    image: webjsp-tomcat:1.0.4
+    container_name: webjsp-tomcat4
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '8084:8080'
+    environment:
+      - TOMCAT_USERNAME=seckngor
+      - TOMCAT_PASSWORD=passer
+    volumes:
+      - bitnami-data:/opt/bitnami
+volumes:
+  bitnami-data:
+    driver: local
+
+#docker compose up -d
